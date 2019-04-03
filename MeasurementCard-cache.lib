@@ -1,0 +1,518 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 6804-1_LTC6804-1
+#
+DEF ~6804-1_LTC6804-1 M 0 40 Y Y 1 L N
+F0 "M" 0 0 45 H I C CNN
+F1 "6804-1_LTC6804-1" 0 0 45 H I C CNN
+F2 "6804-1_LTC6804-1" 30 150 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *LTC6804-1*
+$ENDFPLIST
+DRAW
+P 2 1 0 0 0 -2500 700 -2500 N
+P 2 1 0 0 0 0 0 -2500 N
+P 2 1 0 0 700 -2500 700 0 N
+P 2 1 0 0 700 0 0 0 N
+X V+ 1 -200 -100 200 R 40 40 1 1 B
+X C8 10 -200 -1000 200 R 40 40 1 1 B
+X S8 11 -200 -1100 200 R 40 40 1 1 B
+X C7 12 -200 -1200 200 R 40 40 1 1 B
+X S7 13 -200 -1300 200 R 40 40 1 1 B
+X C6 14 -200 -1400 200 R 40 40 1 1 B
+X S6 15 -200 -1500 200 R 40 40 1 1 B
+X C5 16 -200 -1600 200 R 40 40 1 1 B
+X S5 17 -200 -1700 200 R 40 40 1 1 B
+X C4 18 -200 -1800 200 R 40 40 1 1 B
+X S4 19 -200 -1900 200 R 40 40 1 1 B
+X C12 2 -200 -200 200 R 40 40 1 1 B
+X C3 20 -200 -2000 200 R 40 40 1 1 B
+X S3 21 -200 -2100 200 R 40 40 1 1 B
+X C2 22 -200 -2200 200 R 40 40 1 1 B
+X S2 23 -200 -2300 200 R 40 40 1 1 B
+X C1 24 -200 -2400 200 R 40 40 1 1 B
+X S1 25 900 -2400 200 L 40 40 1 1 B
+X C0 26 900 -2300 200 L 40 40 1 1 B
+X GPIO1 27 900 -2200 200 L 40 40 1 1 B
+X GPIO2 28 900 -2100 200 L 40 40 1 1 B
+X GPIO3 29 900 -2000 200 L 40 40 1 1 B
+X S12 3 -200 -300 200 R 40 40 1 1 B
+X V-* 30 900 -1800 200 L 40 40 1 1 B
+X V- 31 900 -1900 200 L 40 40 1 1 B
+X GPIO4 32 900 -1700 200 L 40 40 1 1 B
+X GPIO5 33 900 -1600 200 L 40 40 1 1 B
+X VREF2 34 900 -1500 200 L 40 40 1 1 B
+X VREF1 35 900 -1400 200 L 40 40 1 1 B
+X SWTEN 36 900 -1300 200 L 40 40 1 1 B
+X VREG 37 900 -1200 200 L 40 40 1 1 B
+X DRIVE 38 900 -1100 200 L 40 40 1 1 B
+X WDT 39 900 -1000 200 L 40 40 1 1 B
+X C11 4 -200 -400 200 R 40 40 1 1 B
+X ISOMOD 40 900 -900 200 L 40 40 1 1 B
+X CSB(IMA) 41 900 -800 200 L 40 40 1 1 B
+X SCK(IPA) 42 900 -700 200 L 40 40 1 1 B
+X SDI(NC) 43 900 -600 200 L 40 40 1 1 B
+X SDO(NC) 44 900 -500 200 L 40 40 1 1 B
+X IBIAS 45 900 -400 200 L 40 40 1 1 B
+X ICMP 46 900 -300 200 L 40 40 1 1 B
+X IMB 47 900 -200 200 L 40 40 1 1 B
+X IPB 48 900 -100 200 L 40 40 1 1 B
+X S11 5 -200 -500 200 R 40 40 1 1 B
+X C10 6 -200 -600 200 R 40 40 1 1 B
+X S10 7 -200 -700 200 R 40 40 1 1 B
+X C9 8 -200 -800 200 R 40 40 1 1 B
+X S9 9 -200 -900 200 R 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# HX1188NL_HX1188NL
+#
+DEF HX1188NL_HX1188NL T 0 40 Y N 1 L N
+F0 "T" -402 627 50 H V L BNN
+F1 "HX1188NL_HX1188NL" -401 -702 50 H V L BNN
+F2 "HXXXX" 0 0 50 H I L BNN
+F3 "Good" 0 0 50 H I L BNN
+F4 "HX1188NL" 0 0 50 H I L BNN
+F5 "Pulse Electronics" 0 0 50 H I L BNN
+F6 "Pulse Electronics" 0 0 50 H I L BNN
+F7 "Telecom Transformer 1CT: 1CT/1CT: 1CT 1.5Ohm Prim. DCR 1.5Ohm Sec. DCR 16Term. Gull Wing SMD" 0 0 50 H I L BNN
+F8 "3.41 USD" 0 0 50 H I L BNN
+DRAW
+A -250 -375 25 -901 900 0 0 6 N -250 -350 -250 -400
+A -250 -325 25 -901 900 0 0 6 N -250 -300 -250 -350
+A -250 -275 25 -901 900 0 0 6 N -250 -250 -250 -300
+A -250 -225 25 -901 900 0 0 6 N -250 -200 -250 -250
+A -250 225 25 -901 900 0 0 6 N -250 250 -250 200
+A -250 275 25 -901 900 0 0 6 N -250 300 -250 250
+A -250 325 25 -901 900 0 0 6 N -250 350 -250 300
+A -250 375 25 -901 900 0 0 6 N -250 400 -250 350
+A -125 -375 25 900 -901 0 0 6 N -125 -350 -125 -400
+A -125 -325 25 900 -901 0 0 6 N -125 -300 -125 -350
+A -125 -275 25 900 -901 0 0 6 N -125 -250 -125 -300
+A -125 -225 25 900 -901 0 0 6 N -125 -200 -125 -250
+A -125 225 25 900 -901 0 0 6 N -125 250 -125 200
+A -125 275 25 900 -901 0 0 6 N -125 300 -125 250
+A -125 325 25 900 -901 0 0 6 N -125 350 -125 300
+A -125 375 25 900 -901 0 0 6 N -125 400 -125 350
+A 25 -363 25 1799 0 0 0 6 N 0 -363 50 -363
+A 25 -238 25 0 1799 0 0 6 N 50 -238 0 -238
+A 25 238 25 1799 0 0 0 6 N 0 238 50 238
+A 25 363 25 0 1799 0 0 6 N 50 363 0 363
+A 75 -363 25 1799 0 0 0 6 N 50 -363 100 -363
+A 75 -238 25 0 1799 0 0 6 N 100 -238 50 -238
+A 75 238 25 1799 0 0 0 6 N 50 238 100 238
+A 75 363 25 0 1799 0 0 6 N 100 363 50 363
+A 125 -363 25 1799 0 0 0 6 N 100 -363 150 -363
+A 125 -238 25 0 1799 0 0 6 N 150 -238 100 -238
+A 125 238 25 1799 0 0 0 6 N 100 238 150 238
+A 125 363 25 0 1799 0 0 6 N 150 363 100 363
+A 175 -363 25 1799 0 0 0 6 N 150 -363 200 -363
+A 175 -238 25 0 1799 0 0 6 N 200 -238 150 -238
+A 175 238 25 1799 0 0 0 6 N 150 238 200 238
+A 175 363 25 0 1799 0 0 6 N 200 363 150 363
+C -250 -225 13 0 0 0 N
+C -250 375 13 0 0 0 N
+C -125 -225 13 0 0 0 N
+C -125 375 13 0 0 0 N
+C 25 -363 13 0 0 0 N
+C 25 -238 13 0 0 0 N
+C 25 238 13 0 0 0 N
+C 25 363 13 0 0 0 N
+T 0 -226 -151 50 0 0 0 RX Normal 0 L B
+T 0 -226 452 50 0 0 0 TX Normal 0 L B
+P 2 0 0 16 -400 -600 -400 100 N
+P 2 0 0 16 -400 -600 400 -600 N
+P 2 0 0 6 -400 -300 -250 -300 N
+P 2 0 0 16 -400 100 -400 300 N
+P 2 0 0 16 -400 300 -400 500 N
+P 2 0 0 6 -400 300 -250 300 N
+P 2 0 0 16 -400 500 -400 600 N
+P 2 0 0 16 -400 600 400 600 N
+P 2 0 0 6 -300 -500 -400 -500 N
+P 2 0 0 6 -300 -400 -300 -500 N
+P 2 0 0 6 -300 -200 -300 -100 N
+P 2 0 0 6 -300 -100 -400 -100 N
+P 2 0 0 6 -300 100 -400 100 N
+P 2 0 0 6 -300 200 -300 100 N
+P 2 0 0 6 -300 400 -300 500 N
+P 2 0 0 6 -300 500 -400 500 N
+P 2 0 0 6 -250 -400 -300 -400 N
+P 2 0 0 6 -250 -200 -300 -200 N
+P 2 0 0 6 -250 200 -300 200 N
+P 2 0 0 6 -250 400 -300 400 N
+P 2 0 0 10 -200 -200 -200 -400 N
+P 2 0 0 10 -200 400 -200 200 N
+P 2 0 0 10 -175 -200 -175 -400 N
+P 2 0 0 10 -175 400 -175 200 N
+P 2 0 0 6 -125 -200 0 -200 N
+P 2 0 0 6 -125 400 0 400 N
+P 2 0 0 6 -75 -450 -75 -300 N
+P 2 0 0 6 -75 -300 -125 -300 N
+P 2 0 0 6 -75 150 -75 300 N
+P 2 0 0 6 -75 300 -125 300 N
+P 2 0 0 6 0 -400 -125 -400 N
+P 2 0 0 6 0 -363 0 -400 N
+P 2 0 0 10 0 -313 200 -313 N
+P 2 0 0 10 0 -288 200 -288 N
+P 2 0 0 6 0 -200 0 -238 N
+P 2 0 0 6 0 200 -125 200 N
+P 2 0 0 6 0 238 0 200 N
+P 2 0 0 10 0 288 200 288 N
+P 2 0 0 10 0 313 200 313 N
+P 2 0 0 6 0 400 0 363 N
+P 2 0 0 6 200 -400 250 -400 N
+P 2 0 0 6 200 -363 200 -400 N
+P 2 0 0 6 200 -238 200 -200 N
+P 2 0 0 6 200 -200 250 -200 N
+P 2 0 0 6 200 200 250 200 N
+P 2 0 0 6 200 238 200 200 N
+P 2 0 0 6 200 363 200 400 N
+P 2 0 0 6 200 400 250 400 N
+P 2 0 0 6 250 -500 400 -500 N
+P 2 0 0 6 250 -400 250 -500 N
+P 2 0 0 6 250 -200 250 -100 N
+P 2 0 0 6 250 -100 400 -100 N
+P 2 0 0 6 250 100 400 100 N
+P 2 0 0 6 250 200 250 100 N
+P 2 0 0 6 250 400 250 500 N
+P 2 0 0 6 250 500 400 500 N
+P 2 0 0 6 300 -450 -75 -450 N
+P 2 0 0 6 300 -300 300 -450 N
+P 2 0 0 6 300 150 -75 150 N
+P 2 0 0 6 300 300 300 150 N
+P 2 0 0 6 400 -300 300 -300 N
+P 2 0 0 16 400 100 400 -600 N
+P 2 0 0 6 400 300 300 300 N
+P 2 0 0 16 400 300 400 100 N
+P 2 0 0 16 400 500 400 300 N
+P 2 0 0 16 400 600 400 500 N
+X 1 1 -600 500 200 R 40 40 0 0 P
+X 10 10 600 -300 200 L 40 40 0 0 P
+X 11 11 600 -100 200 L 40 40 0 0 P
+X 14 14 600 100 200 L 40 40 0 0 P
+X 15 15 600 300 200 L 40 40 0 0 P
+X 16 16 600 500 200 L 40 40 0 0 P
+X 2 2 -600 300 200 R 40 40 0 0 P
+X 3 3 -600 100 200 R 40 40 0 0 P
+X 6 6 -600 -100 200 R 40 40 0 0 P
+X 7 7 -600 -300 200 R 40 40 0 0 P
+X 8 8 -600 -500 200 R 40 40 0 0 P
+X 9 9 600 -500 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_BSS138-transistors-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_BSS138-transistors-onestacker_butbetter-rescue-twostacker-rescue Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "MeasurementCard-rescue_BSS138-transistors-onestacker_butbetter-rescue-twostacker-rescue" 200 0 50 H V L CNN
+F2 "TO_SOT_Packages_SMD:SOT-23" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+$FPLIST
+ SOT?23*
+$ENDFPLIST
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 40 0 80 15 80 -15 40 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 20 115 15 145 15 150 10 N
+P 4 0 1 0 130 15 115 -10 145 -10 130 15 N
+X G 1 -200 0 210 R 50 50 1 1 I
+X S 2 100 -200 100 U 50 50 1 1 P
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_C_Small-device-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_C_Small-device-onestacker_butbetter-rescue-twostacker-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "MeasurementCard-rescue_C_Small-device-onestacker_butbetter-rescue-twostacker-rescue" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_Conn_01x01-conn-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_Conn_01x01-conn-onestacker_butbetter-rescue-twostacker-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "MeasurementCard-rescue_Conn_01x01-conn-onestacker_butbetter-rescue-twostacker-rescue" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_Conn_01x02-conn-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_Conn_01x02-conn-onestacker_butbetter-rescue-twostacker-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "MeasurementCard-rescue_Conn_01x02-conn-onestacker_butbetter-rescue-twostacker-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_Conn_01x03-conn-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_Conn_01x03-conn-onestacker_butbetter-rescue-twostacker-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "MeasurementCard-rescue_Conn_01x03-conn-onestacker_butbetter-rescue-twostacker-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_Conn_01x05-conn-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_Conn_01x05-conn-onestacker_butbetter-rescue-twostacker-rescue J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "MeasurementCard-rescue_Conn_01x05-conn-onestacker_butbetter-rescue-twostacker-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_Conn_01x13-conn-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_Conn_01x13-conn-onestacker_butbetter-rescue-twostacker-rescue J 0 40 Y N 1 F N
+F0 "J" 0 700 50 H V C CNN
+F1 "MeasurementCard-rescue_Conn_01x13-conn-onestacker_butbetter-rescue-twostacker-rescue" 0 -700 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 650 50 -650 1 1 10 f
+X Pin_1 1 -200 600 150 R 50 50 1 1 P
+X Pin_10 10 -200 -300 150 R 50 50 1 1 P
+X Pin_11 11 -200 -400 150 R 50 50 1 1 P
+X Pin_12 12 -200 -500 150 R 50 50 1 1 P
+X Pin_13 13 -200 -600 150 R 50 50 1 1 P
+X Pin_2 2 -200 500 150 R 50 50 1 1 P
+X Pin_3 3 -200 400 150 R 50 50 1 1 P
+X Pin_4 4 -200 300 150 R 50 50 1 1 P
+X Pin_5 5 -200 200 150 R 50 50 1 1 P
+X Pin_6 6 -200 100 150 R 50 50 1 1 P
+X Pin_7 7 -200 0 150 R 50 50 1 1 P
+X Pin_8 8 -200 -100 150 R 50 50 1 1 P
+X Pin_9 9 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_GND-power-twostacker-rescue
+#
+DEF MeasurementCard-rescue_GND-power-twostacker-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "MeasurementCard-rescue_GND-power-twostacker-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_GNDA-power-twostacker-rescue
+#
+DEF MeasurementCard-rescue_GNDA-power-twostacker-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "MeasurementCard-rescue_GNDA-power-twostacker-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GNDA 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_LED_Small-device-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_LED_Small-device-onestacker_butbetter-rescue-twostacker-rescue D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "MeasurementCard-rescue_LED_Small-device-onestacker_butbetter-rescue-twostacker-rescue" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED-*
+ LED_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_Q_NPN_BCE-device-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_Q_NPN_BCE-device-onestacker_butbetter-rescue-twostacker-rescue Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "MeasurementCard-rescue_Q_NPN_BCE-device-onestacker_butbetter-rescue-twostacker-rescue" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 25 25 100 100 N
+P 3 0 1 0 25 -25 100 -100 100 -100 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 5 0 1 0 50 -70 70 -50 90 -90 50 -70 50 -70 F
+X B 1 -200 0 225 R 50 50 1 1 I
+X C 2 100 200 100 D 50 50 1 1 P
+X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_R_Small-device-onestacker_butbetter-rescue-twostacker-rescue
+#
+DEF MeasurementCard-rescue_R_Small-device-onestacker_butbetter-rescue-twostacker-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "MeasurementCard-rescue_R_Small-device-onestacker_butbetter-rescue-twostacker-rescue" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_VDD-power-twostacker-rescue
+#
+DEF MeasurementCard-rescue_VDD-power-twostacker-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "MeasurementCard-rescue_VDD-power-twostacker-rescue" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# MeasurementCard-rescue_VDDA-power-twostacker-rescue
+#
+DEF MeasurementCard-rescue_VDDA-power-twostacker-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "MeasurementCard-rescue_VDDA-power-twostacker-rescue" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VDDA 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name onestacker_butbetter-rescue)(type Legacy)(uri ${KIPRJMOD}/onestacker_butbetter-rescue.lib)(options "")(descr ""))
+  (lib (name twostacker-rescue)(type Legacy)(uri ${KIPRJMOD}/twostacker-rescue.lib)(options "")(descr ""))
+  (lib (name MeasurementCard-rescue)(type Legacy)(uri ${KIPRJMOD}/MeasurementCard-rescue.lib)(options "")(descr ""))
+)
